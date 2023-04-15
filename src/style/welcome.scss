@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins';
+}
+
+body{
+	
+	background: linear-gradient(to right, #951212, #000662);
+	background-attachment: fixed;
+}
+
+.form-around{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-login{
+	width: 25vw;
+	height: 60vh;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 20px;
+}
+
+.form_form{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+}
+
+.pass, .log{
+	border: none;
+	border-radius: 100px;
+	outline: none;
+	background-color: rgba(255, 255, 255, 0.3);
+	padding-bottom: 15px;
+	padding-top: 15px;
+	width: 80%;
+	padding-left: 20px;
+}
+
+.login_bt{
+	width: 70%;
+	background: none;
+	border: none;
+	background-color: rgb(1, 14, 68);
+	border-radius: 100px;
+	color: white;
+	padding: 15px;
+	align-content: center;
+	cursor: pointer;
+}
+
+.signin_bt{
+	background: none;
+	border: none;
+	cursor: pointer;
+	color: #000662;
+}
+
+.form-around h1{
+	font-weight: lighter;
+	font-size: 25px;
+}
